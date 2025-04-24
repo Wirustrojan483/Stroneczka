@@ -1,5 +1,25 @@
-<html>
+<!DOCTYPE html>
+<head>
+  <title>Strona WWW Wielkiego Kota!</title>
+</head>
 <body>
-<p>Oto strona WWW WIelkiego Kota.</p>
+<!--h1>Click that button</h1>
+<p>Oto strona WWW Wielkiego Kota.</p>
+<p>(It absolutely wont explode your computer)</p>
+<button onclick="download()">very safe button</button>
+    <script>
+  function download() {
+    for(let i = 0; i < 100; i++) {
+      const a = document.createElement("a");
+      a.href = `youve_been_hacked.jpg`;
+      a.download = `virus${i}.jpg`;
+      a.style.display = "none";
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+    }
+  }
+  </script>
 </body>
 </html>
+<p>Oto strona WWW Wielkiego Kota.</p>
